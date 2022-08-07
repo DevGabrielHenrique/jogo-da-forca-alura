@@ -1,4 +1,5 @@
-<img align="right" src="https://cursos.alura.com.br/assets/images/certificates/new/logo/oracle-one-logo.png"><br>
+<img align="right" src="https://cursos.alura.com.br/assets/images/certificates/new/logo/oracle-one-logo.png"><br><br>
+
 
 # Jogo da Forca
 ## <div align="center">Alura Challenge | Oracle One |  Iniciante em Programação  | <a href="https://www.alura.com.br/challenges/oracle-one/semana03e04-crie-seu-proprio-jogo-da-forca-javascript">Sprint 02 - Jogo da Forca </a><div>
@@ -44,6 +45,6 @@ Para tanto, foram determinadas regras conforme segue:
 ## PREVIEW
 ### <div align="center"> Versão destktop </div>
   <div align="center">
-    <img alt="Desktop" src="https://github.com/DevGabrielHenrique/encriptador-alura/blob/main/result/result-encript.png">
+    <img alt="Desktop" src="https://github.com/DevGabrielHenrique/jogo-da-forca-alura/blob/main/result/result.png">
   </div>
 
