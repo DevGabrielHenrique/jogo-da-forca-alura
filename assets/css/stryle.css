@@ -1,0 +1,23 @@
+/* BG, Cores e Main */
+@import url('global.css');
+
+/* Header */
+@import url('header.css');
+
+/* Botões iniciais */
+@import url('initial.css');
+
+/* Carregamento */
+@import url('loading.css');
+
+/* Tela principal do Jogo */
+@import url('jogo.css');
+
+/* Pop-up de seleção */
+@import url('popUp.css');
+
+/* Pop-up com mensagens informativas */
+@import url('aviso.css');
+
+/* Footer */
+@import url('footer.css');

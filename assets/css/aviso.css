@@ -1,0 +1,65 @@
+.aviso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 0%;
+    height: 63%;
+    background-color: var(--aux-color-1);
+    border-radius: 20px;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.aviso.laranja{
+    border: var(--color-1) solid 5px;
+}
+
+.aviso.vermelho{
+    border: var(--color-2) solid 5px;
+}
+
+.aviso.verde{
+    border: var(--aux-color-3) solid 5px;
+}
+
+.aviso p{
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-green);
+    text-align: center;
+}
+
+.aviso__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+}
+
+.btnAviso{
+    width: 20%;
+    border: none;
+    margin: 0px 20px;
+    border-radius: 20px;
+    padding: 5px 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: var(--aux-color-2);
+    color: var(--color-green);
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 2px 0px var(--aux-color-3);
+}
+
+.btnAviso:last-child{
+    background-color: var(--aux-color-4);
+    color: var(--aux-color-1);
+}
+
+.btnAviso:active{
+    box-shadow: -2px -2px 0px var(--aux-color-3);
+    transform: translateY(2px) translateX(2px);
+}

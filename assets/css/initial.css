@@ -1,0 +1,28 @@
+.btn{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 40px 30px;
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: var(--aux-color-1);
+    color: var(--color-green);
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 3px 3px 0px var(--aux-color-3);
+}
+
+.btn:last-child{
+    background-color: var(--aux-color-4);
+    color: var(--aux-color-1);
+    margin-top: 50px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn:active{
+    box-shadow: -3px -3px 0px var(--aux-color-3);
+    transform: translateY(3px) translateX(3px);
+}

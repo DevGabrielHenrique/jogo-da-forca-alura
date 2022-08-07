@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+   
+}
+
+
+
+.box{
+    width: 1200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    padding: 10px 5px 5px 5px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.titulo{
+    width: 76%;
+    color: #00FF00;     
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #00FF00;
+    width: 30%;
+    height: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: 2em;
+}
+
+.loading__span{
+    border: #00FF00 solid 2px;
+    border-radius: 5px;
+    width: 80%;
+    height: 20px;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.loading__hr{
+    height: 15px;
+    background-color: #00FF00;
+    margin: 10px 0;
+    border: none;
+}

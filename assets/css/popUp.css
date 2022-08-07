@@ -1,0 +1,71 @@
+.popUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 0%;
+    height: 63%;
+    background-color: var(--aux-color-1);
+    border-radius: 20px;
+    position: absolute;
+    opacity: 0.95;
+    transition: 0.3s;
+}
+
+.popUp.opaco{
+    opacity: 1;
+}
+
+.popUp p{
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-green);
+}
+
+.popUp__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+}
+
+.btnSN{
+    width: 20%;
+    border: none;
+    margin: 0px 20px;
+    border-radius: 20px;
+    padding: 5px 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: var(--aux-color-2);
+    color: var(--color-green);
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 2px 0px var(--aux-color-3);
+}
+
+.btnSN:last-child{
+    background-color: var(--aux-color-4);
+    color: var(--aux-color-1);
+}
+
+.btnSN:active{
+    box-shadow: -2px -2px 0px var(--aux-color-3);
+    transform: translateY(2px) translateX(2px);
+}
+
+.textArea{
+    width: 60%;
+    height: 60%;
+    border: none;
+    background-color: var(--color-black);
+    border-radius: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    color: var(--color-green);
+    font-size: 1.2em;
+    resize: none;
+    outline: none;
+}
