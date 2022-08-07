@@ -11,7 +11,7 @@
 </div>
 
 ---
- <img align="right" width="400px" src="https://user-images.githubusercontent.com/44093225/174912906-27c210df-ecb2-4fe7-a21b-f0c9adcab837.png">
+ <img align="right" width="400px" src="https://github.com/DevGabrielHenrique/jogo-da-forca-alura/blob/main/result/cms_files_10224_1659460843Badge_JS_Alura_ChallengeOracleONE_2000x2000_V3.png">
 
 Esse projeto foi desenvolvido no escopo da formação da trilha **<u>Iniciante em Programação</u>**, idealizada pela Alura em parceria com a Oracle para o programa ONE - Oracle Next Education.
 
